@@ -1,0 +1,126 @@
+.head{
+    background-image: url(header-image.png);
+    background-size: cover;
+}
+input{
+    backdrop-filter: blur(25px);
+}
+.com{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+.com h1{
+    font-size: 60px;
+}
+
+.black{
+    background-color: black;
+}
+
+
+
+/* FAQ accordion Netflix style */
+.accordion-item {
+  background-color: #303030 !important;
+  color: white !important;
+  border: none !important;
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  background-color: #303030 !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+}
+
+/* Remove default blue glow */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* When expanded */
+.accordion-button:not(.collapsed) {
+  background-color: #303030 !important;
+  color: white !important;
+}
+
+/* Accordion body text */
+.accordion-body {
+  background-color: #303030 !important;
+  color: white !important;
+  font-size: 16px;
+  padding: 20px;
+}
+.accordion-button::after {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3E%3Cpath d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z'/%3E%3C/svg%3E") !important; /* Plus icon */
+      transform: rotate(0deg) !important; /* Reset rotation for collapsed state */
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3E%3Cpath d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z'/%3E%3C/svg%3E") !important; /* Minus icon */
+      transform: rotate(180deg) !important; /* Rotate for expanded state */
+    }
+
+
+
+.card-container {
+  display: inline-block;
+  margin: 20px;
+}
+
+.card {
+  overflow: hidden;
+   border-radius: 8px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card img {
+  display: block;
+   width: 100%;
+  height: auto;
+   transition: transform 0.4s ease;
+}
+
+#carouselExample .card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+
+#carouselExample.card-container {
+  display: inline-block;
+  margin: 20px;
+}
+
+#carouselExample.card {
+  overflow: hidden;
+   border-radius: 8px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#carouselExample.card img {
+  display: block;
+   width: 100%;
+  height: auto;
+   transition: transform 0.4s ease;
+}
+
+#carouselExample .card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+#carouselExample.card:hover img {
+  transform: scale(1.1);
+}
+#carouselExample.card:hover img {
+  transform: scale(1.1);
+}
+
+
+    
